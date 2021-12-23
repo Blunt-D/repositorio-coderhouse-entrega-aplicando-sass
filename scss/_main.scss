@@ -1,0 +1,47 @@
+main {
+    grid-area: main;
+    background-color: $color_secundario;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    .portada {
+        img {
+            height: 80vh;
+            width: auto;
+            z-index: -1;
+        }
+    &__cuadro {
+        position: absolute;
+        background-color: $color_primario;
+        border: solid $color_secundario 5px;
+        align-self: center;
+        text-align: center;
+        color: $color_texto;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 2%;
+        a {
+            font-size: x-large;
+            text-align: center;
+            color: $color_texto;
+            background-color: #47b475;
+            margin-bottom: 10px;
+        }
+    }
+    }
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        background-color: rgba(134, 40, 6, 0.842);
+        .portada__cuadro {
+            font-size: x-large;
+            padding-right: 3%;
+            padding-left: 3%;
+            a {
+                font-size:xx-large;
+                margin-top: 10%;
+            }
+        }
+    }
+}

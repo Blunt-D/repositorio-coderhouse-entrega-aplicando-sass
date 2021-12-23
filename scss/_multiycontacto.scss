@@ -1,0 +1,29 @@
+.container-fluid {
+    overflow-y: auto;
+    z-index: -1;
+}
+
+.card {
+    &-title{
+    text-align: center;
+    }
+    &-text {
+        text-align: center;
+    }
+    &-body {
+        background-color: $color_secundario
+    }
+}
+
+div {
+    .col-1 {
+        background-color: $color_secundario;
+    }
+    .col-12 mt-0 px-0 {
+        background-color: $color_secundario;
+    }
+    .row {
+        background-color: $color_secundario;
+    }
+}
+

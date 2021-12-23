@@ -1,0 +1,53 @@
+.background {
+    background-color: $color_secundario;
+    .biografia__content {
+        background-color: $color_secundario_light;
+        font-size: large;
+        border: $color_terciario solid 15px;
+        margin-top: 3%;
+        margin-right: 7%;
+        margin-bottom: 3%;
+        margin-left: 7%;
+        padding-top: 5%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        overflow-y: auto;
+        h1 {
+            font-size: 60px;
+            padding-bottom: 20px;
+        }
+        p {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .background {
+        background-color: $color_secundario;
+        .biografia__content {
+            background-color: $color_secundario_light;
+            font-size: xx-large;
+            border: $color_terciario solid 15px;
+            margin-top: 3%;
+            margin-right: 7%;
+            margin-bottom: 3%;
+            margin-left: 7%;
+            padding-top: 5%;
+            padding-right: 10%;
+            padding-bottom: 5%;
+            padding-left: 10%;
+            overflow-y: auto;
+            h1 {
+                font-size: 60px;
+                padding-bottom: 20px;
+            }
+            p {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+html {
+	font-size: 80%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-rows: 10% 80% 10%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer"
+    }
+}
